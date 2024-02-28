@@ -1,0 +1,10 @@
+.global _start
+_start:
+	MOV R0,#1 @MOVE 1 IN REGISTER R0
+	MOV R1,#2 @MOVE 2 IN REGISTER R1
+	
+	ADD R2,R0,R1 @ ADD R0 AND R1 AND SAVE IT TO R2
+	SUB R3,R0,R1 @ SUBTRACT R0 AND R1 AND SAVE IT TO R3
+	MUL R4,R0,R1 @MULTIPLY RO AND R1 AND SAVE IT TO R4
+	
+@ https://cpulator.01xz.net/?sys=arm&loadasm=share/sWnTEz5.s
