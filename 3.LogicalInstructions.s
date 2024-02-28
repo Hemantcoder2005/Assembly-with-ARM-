@@ -10,3 +10,4 @@ _start:
     ORR  R3,R0,R1
     MVN R5,R0
     MVN R6,R1
+@ https://cpulator.01xz.net/?sys=arm&loadasm=share/sbLGysK.s
